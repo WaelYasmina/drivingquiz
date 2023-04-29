@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving Test Quiz</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="progress-bar-container">
+        <label for="progress-bar">Loading...</label>
+        <progress id="progress-bar" value="0" max="100"></progress>
+    </section>
+    <p class="score">Score: <span>0</span> / 7</p>
+    <section class="header">
+        <h1>DRIVING TEST QUIZ</h1>
+        <button>START</button>
+    </section>
+    <section class="questions">
+        <p>Q1: in which order may the vehicles proceed?</p>
+        <ul>
+            <li id="option1"><span id="a1-text">Blue, yellow, red</span> <span id="a1-symbol"></span></li>
+            <li id="option2"><span id="a2-text">Red, yellow, blue</span> <span id="a2-symbol"></span></li>
+            <li id="option3"><span id="a3-text">Red, blue, yellow</span> <span id="a3-symbol"></span></li>
+        </ul>
+    </section>
+    <section class="explanation">
+        <button>Next Question</button>
+        <div class="text-wrapper">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Cras at leo vel lorem iaculis ultrices at et justo.
+                Phasellus semper, ligula in aliquam placerat, dui velit suscipit lacus,
+                eu tincidunt magna urna vitae ligula. Pellentesque vitae risus faucibus,
+                accumsan tortor in, cursus nisi. Quisque fermentum ligula non viverra commodo.
+            </p>
+        </div>
+    </section>
+    <script src="./js/scripts.js" type="module"></script>
+</body>
+</html>

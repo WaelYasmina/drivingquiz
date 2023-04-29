@@ -1,0 +1,25 @@
+{
+  "name": "drivingquiz",
+  "version": "1.0.0",
+  "description": "https://youtu.be/WIZ5kbeVMkM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.11.5",
+    "three": "^0.151.3",
+    "yuka": "^0.7.8"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.4.0",
+    "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.3.4"
+  },
+  "staticFiles": {
+    "staticOutPath": "assets"
+  }
+}
